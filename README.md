@@ -65,6 +65,7 @@ The following files contains the corresponding commands that can be called from 
 1. GroupLayLock.lsp - <ins>**_GRLAYLCK_**</ins>
 1. LayerSelect.lsp - <ins>**_LAYSEL_**</ins>
 1. PrefixSuffixText.lsp - <ins>**_PRESUF_**</ins>
+1. RevCloud.lsp - <ins>**_RC_**</ins>, <ins>**_RCM_**</ins>
 
 # Instructions on how the command operates
 
