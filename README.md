@@ -2,7 +2,7 @@
 
 This repository provides a few examples of AutoLISP routines that may enable AutoCAD users to draft more efficiently, neatly, and accurately. From finding and deleting block duplicates to aligning objects along a linear direction to instantly clouding AutoCAD objects, these may enhance your layout of detailing and work more productively.
 
-The short video below shows a demonstration of the commands <u>**_ATD_**</u> and <u>**_RC_**</u> found in _AlignToDirection.lsp_ and _RevCloud.lsp_ respectively.
+The short video below shows a demonstration of the commands <ins>**_ATD_**</ins> and <ins>**_RC_**</ins> found in _AlignToDirection.lsp_ and _RevCloud.lsp_ respectively.
 
 https://user-images.githubusercontent.com/51016179/136562969-e716629a-1a94-488c-8d7c-f9948e706ac8.mp4
 
@@ -57,14 +57,14 @@ AutoLISP routines will not appear on the ribbon of your AutoCAD and can only be 
 
 The following files contains the corresponding commands that can be called from the command line once loaded:
 
-1. AlignToDirection.lsp - <u>**_ATD_**</u>
-1. AttributeBlockFinder.lsp - <u>**_ABF_**</u>
-1. BlockOverkill.lsp - <u>**_BOVERKILL_**</u>
-1. CommandSave.lsp - <u>**_CMDSAVEON_**</u>, <u>**_CMDSAVEOFF_**</u>
-1. CurveDistance.lsp - <u>**_CRVDIS_**</u>
-1. GroupLayLock.lsp - <u>**_GRLAYLCK_**</u>
-1. LayerSelect.lsp - <u>**_LAYSEL_**</u>
-1. PrefixSuffixText.lsp - <u>**_PRESUF_**</u>
+1. AlignToDirection.lsp - <ins>**_ATD_**</ins>
+1. AttributeBlockFinder.lsp - <ins>**_ABF_**</ins>
+1. BlockOverkill.lsp - <ins>**_BOVERKILL_**</ins>
+1. CommandSave.lsp - <ins>**_CMDSAVEON_**</ins>, <ins>**_CMDSAVEOFF_**</ins>
+1. CurveDistance.lsp - <ins>**_CRVDIS_**</ins>
+1. GroupLayLock.lsp - <ins>**_GRLAYLCK_**</ins>
+1. LayerSelect.lsp - <ins>**_LAYSEL_**</ins>
+1. PrefixSuffixText.lsp - <ins>**_PRESUF_**</ins>
 
 # Instructions on how the command operates
 
@@ -76,7 +76,7 @@ Detailed instruction have been left on the files themselves, including the comma
     
     - In AutoCAD, invoke the **_VLIDE_** command.
     
-        **<u>For AutoCAD 2020 and earlier versions:</u>**
+        **<ins>For AutoCAD 2020 and earlier versions:</ins>**
 
         - This will bring you to the Visual LISP Integrated Development Environment.
 
@@ -86,7 +86,7 @@ Detailed instruction have been left on the files themselves, including the comma
 
         ![Screenshot 2021-10-08 223921](https://user-images.githubusercontent.com/51016179/136550555-de98d67b-49d3-42fc-b050-c1c4f3b95f7a.png)
 
-        **<u>For AutoCAD 2021 and later versions:</u>**
+        **<ins>For AutoCAD 2021 and later versions:</ins>**
 
         - Visual LISP Integrated Development Environment is no longer supported in these versions. Instead, **Visual Studio Code** (VS Code) will be used.
 
