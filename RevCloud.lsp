@@ -94,9 +94,14 @@
 ;; p1, p2 - the corner points of the cloud
 ;; off - the horizontal and vertical offset from the bounding box of p1 and p2
 ;; rad - arc radius of the cloud
+;; col - an integer denoting AutoCAD Color Index of the cloud
+;; wid - polyline width of the polyline
+;; lay - 
+
+
 
 (defun JH:RevCloud (p1 p2 off rad col wid lay / bul i k l len ll lm p pof pts ur)
-    (if (not off) (setq off 200))
+    (if (not off) (setq off 0))
     (if (not rad) (setq rad 120))
     (setq 
         ll (mapcar 'min p1 p2)
@@ -153,7 +158,6 @@
                 '(100 . "AcDbPolyline")
                 (cons 90 (length (setq pts (reverse pts))))
                 '(70 . 1)
-                '(410 . "Model")
             )
             (apply 'append 
                 (mapcar
